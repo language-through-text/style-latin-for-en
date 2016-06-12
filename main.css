@@ -1,0 +1,41 @@
+
+div.lttitle {
+	text-align: center;
+	font-size: 60px;
+	line-height: 100%;
+}
+
+div.entitle {
+	text-align: center;
+	font-size: 40px;
+	line-height: 100%;
+}
+
+div.entitle::before {
+	content: "(";
+}
+
+div.entitle::after {
+	content: ")";
+}
+
+div.sect {
+	font-size: 100%;
+	line-height: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #aaaaff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.ftr {
+	font-size: 150%;
+	color: #880000;
+	line-height: 100%;
+}
+
+
+
